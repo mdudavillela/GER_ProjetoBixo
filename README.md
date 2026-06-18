@@ -16,3 +16,7 @@ Projeto de seis semanas cujo objetivo é fazer um robô explorador.
 - Semana 4: Controle de Movimento (PID)
   - Introdução à teoria de controle em malha fechada e os ganhos Proporcional, Integral e Derivativo (PID).
   - Objetivo: Implementar o algoritmo PID para que as rodas obedeçam fielmente aos comandos de velocidade. A equipe fará ciclos rápidos de "alteração de código > teste físico > análise", forçando o motor com as mãos (simulando atrito do chão) para sintonizar os ganhos e evitar que o robô oscile ou trema durante o deslocamento.
+
+- Semana 5: Integração ROS 2 e Desafio
+  - Arquitetura de comunicação (Nós, Tópicos) e o uso do micro-ROS para integrar microcontroladores ao ecossistema do PC.
+  - Objetivo: Estabelecer a ponte de comunicação completa. Deve-se programar o robô para assinar o tópico de velocidade enviado pelo sistema central e publicar a sua odometria de volta. O restante do tempo será usado para ajustes mecânicos de última hora, testando o robô no chão com comandos remotos.
